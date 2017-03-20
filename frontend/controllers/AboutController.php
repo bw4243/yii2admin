@@ -13,6 +13,7 @@ class AboutController extends Controller
 
     public function actionContact()
     {
+
         //phpinfo();
         return $this->render('contact');
     }
